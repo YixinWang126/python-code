@@ -1,0 +1,7 @@
+def get_dream_destination():  
+    destination = input("If you could visit one place in the world, where would you go? ")  
+    return destination  
+   
+user_destination = get_dream_destination()  
+  
+print("Your dream vacation destination is:", user_destination)
